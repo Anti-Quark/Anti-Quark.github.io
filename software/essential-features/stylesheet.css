@@ -6,12 +6,14 @@
         'header header header'
         'image1 image1 image1'
         'image1 image1 image1'
-        'content content image2'
+        'content image2 image2'
+        'content image2 image2'
         'footer footer footer';
 }
 
 .box {
   padding: 20px;
+  text-align: center;
 }
 
 .about {
@@ -30,4 +32,8 @@
 
 .site-footer {
     grid-area: footer;
+}
+
+.feature-list {
+    list-style-type: none;
 }
