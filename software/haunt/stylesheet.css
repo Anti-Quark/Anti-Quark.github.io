@@ -1,0 +1,36 @@
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.2fr);
+    grid-gap: 20px;
+    grid-template-areas:
+    'about about about'
+    'features info info'
+    'footer footer footer';
+}
+
+.box {
+  padding: 20px;
+  text-align: center;
+}
+
+.about {
+    grid-area: about;
+}
+
+.features {
+    grid-area: features;
+}
+
+.info {
+    grid-area: info;
+}
+
+.site-footer {
+    grid-area: footer;
+}
+
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+}
