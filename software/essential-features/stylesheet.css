@@ -1,0 +1,33 @@
+.main-content {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+        'header header header'
+        'image1 image1 image1'
+        'image1 image1 image1'
+        'content content image2'
+        'footer footer footer';
+}
+
+.box {
+  padding: 20px;
+}
+
+.about {
+    grid-area: header;
+}
+
+.features {
+    grid-area: content;
+}
+.screenshot-1 {
+    grid-area: image1;
+}
+.screenshot-2 {
+    grid-area: image2
+}
+
+.site-footer {
+    grid-area: footer;
+}
