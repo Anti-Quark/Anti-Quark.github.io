@@ -5,6 +5,7 @@
     grid-template-areas:
         'header header header'
         'image1 image1 image1'
+        'image1 image1 image1'
         'content content image2'
         'footer footer footer';
 }
