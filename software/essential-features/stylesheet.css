@@ -1,7 +1,6 @@
 .main-content {
     display: grid;
     grid-gap: 20px;
-
 }
 
 @media screen and (min-width: 64em) {
@@ -9,7 +8,7 @@
     .main-content {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 0.2fr);
-        
+
         grid-template-areas:
         'image image about'
         'features features features'
