@@ -1,13 +1,32 @@
 .main-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 0.2fr);
     grid-gap: 20px;
-    grid-template-areas:
-    'image image about'
-    'features features features'
-    'footer footer footer';
+
 }
+
+@media screen and (min-width: 64em) {
+
+    .main-content {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 0.2fr);
+        
+        grid-template-areas:
+        'image image about'
+        'features features features'
+        'footer footer footer';
+    } }
+
+@media screen and (max-width: 64em) {
+    .main-content {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 0.2fr);
+
+        grid-template-areas:
+        'about about about'
+        'image image image'
+        'features features features'
+        'footer footer footer';
+    } }
 
 .box {
   padding: 20px;
