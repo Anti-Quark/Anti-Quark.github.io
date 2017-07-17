@@ -59,6 +59,11 @@ a {
   background-color: #319de0;
   background-image: linear-gradient(120deg, #319de0, #2971c1); }
 
+@media screen and (max-width: 42em) {
+    .menubar {
+        line-height: 0.5;
+    } }
+
 .menubar {
     list-style-type: none;
     margin: 0;
